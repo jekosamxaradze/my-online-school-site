@@ -1,0 +1,131 @@
+* {
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(../fixed/login.jpg) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 650px;
+    background: rgba(17, 16, 16, 0.77);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -4px 4px 4px rgba(207, 206, 206, 0.34);   
+}
+
+
+.form-title {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: rgb(177, 14, 14);
+
+    border-bottom: solid 1px rgb(229, 25, 25);
+
+}
+
+
+
+.main-user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.user-input-box:nth-child(2n){
+    justify-content: end;
+}
+
+.user-input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.user-input-box label {
+    width: 95%;
+    color: rgba(180, 180, 180, 0.847);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+
+.user-input-box input {
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+}
+
+.gender-title {
+    color: rgb(211, 34, 34);
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(161, 161, 161);
+}
+
+.gender-category {
+    margin: 15px 0;
+    color: rgb(203, 201, 201);
+}
+
+.gender-category label {
+    padding: 0 20px 0 5px;
+}
+
+.gender-category label, .gender-category input, .form-submit-btn input {
+    cursor: pointer;
+}
+
+
+.form-submit-btn {
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.form-submit-btn a {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(206, 191, 191);
+    background: rgba(68, 149, 88, 0.7);
+
+} 
+
+.form-submit-btn:hover {
+    background: rgb(12, 218, 12);
+    transition: 0.8s;
+    
+}
+.form-submit-btn a:hover {
+    color: white;
+    transition: 1s;
+    
+    
+}
+
+
+
+
+

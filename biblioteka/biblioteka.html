@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ელექტრონული ბიბლიოთეკა</title>
+    <link rel="icon" href="../fixed/logo.png">
+    <link rel="stylesheet" href="../fixed/nav.css">
+    <link rel="stylesheet" href="biblioteka.css">
+    
+</head>
+<body>
+    <header>
+        <p class="logo">თანამედროვე განათლება — ერთი ნაბიჯით წინ!</p>
+        <nav>
+            <a href="../main/main.html" >home</a>
+            <a href="#"  style="color: rgb(156, 156, 156);">Library</a>
+            <a href="../chat/chat.html">Chat</a>
+            <a href="../online journal/journal.html">Journal</a>
+            
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="form-container">
+            <form>
+                <label for="category">ელექტრონული კატალოგის კატეგორია:</label>
+                <select id="category" name="category">
+                    <option value="all">ყველა</option>
+                </select>
+
+                <label for="author">სათაური:</label>
+                <input type="text" id="author" name="author" placeholder="ჩაწერეთ სათაური">
+
+                <label for="author-name">ავტორი:</label>
+                <input type="text" id="author-name" name="author-name" placeholder="ჩაწერეთ ავტორი">
+
+                <label for="publishing-place">მიუთითე სკოლა:</label>
+                <input type="text" id="publishing-place" name="publishing-place" placeholder="მიუთითე სკოლა">
+
+                <label for="publisher">გამომცემლობა:</label>
+                <input type="text" id="publisher" name="publisher" placeholder="ჩაწერეთ გამომცემლობა">
+
+                <button type="submit">ძებნა</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://www.tbceducation.ge" target="_blank"><img src="../fixed/tbc bank.png" alt="tbs"></a>
+        <div class="footer-container">
+            <p>&copy; 2025. ყველა უფლება დაცულია.</p>
+            <nav>
+                <ul>
+                    <li><a href="#privacy">კონფიდენციალურობა</a></li>
+                    <li><a href="#terms">პირობები</a></li>
+                    <li><a href="../about/about.html" target="_blank" >ჩვენს შესახებ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

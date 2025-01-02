@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+body {
+    
+    background: url(../fixed/login.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container {
+    margin-top: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    width: auto;
+    max-width: 1200px;
+}
+.card {
+    background-color: #ff6b3f;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-header {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.card-body {
+    margin-bottom: 20px;
+}
+.card-body span {
+    font-size: 16px;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-footer .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card-footer .stats div {
+    margin-bottom: 5px;
+}
+.grade {
+    background-color: white;
+    color: #ff6b3f;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+/* ფერები */
+.card.orange {
+    height: 200px;
+     background-color: #ff6b3f; 
+    }
+
+.card.green {
+    height: 200px;
+     background-color: #4caf50; 
+    }
+
+.card.yellow { 
+    height: 200px;
+    background-color: #a7ae18; 
+}
+
+.card.blue {
+    height: 200px;
+    background-color: blue;
+}
+
+
+/* რესპონსივები */
+
+
+@media (max-width: 768px) {
+    body {
+        
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+
+        
+    }
+    main {
+        width: 80%;
+        padding-top: 100px;
+
+        
+    }
+
+
+
+ 
+}
+
+@media (max-width: 480px) {
+    
+
+    .card {
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+}

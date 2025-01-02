@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../fixed/about\ backround.jpg) ;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+   
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.section-title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: #dcdcdc;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 20px));
+    gap: 20px;
+}
+
+.card {
+    background: #bcbbbb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 17px;
+    
+}
+
+.description {
+    margin-top: 70px;
+    background-color: #bcbbbb;
+    font-family: "Noto Serif Georgian", serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+footer button {
+    width: 100px;
+    display: flex;
+    background-color: blue;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 0px 10px ;
+
+}
+
+footer button a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .card h3 {
+        font-size: 1.2rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+}
